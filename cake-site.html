@@ -1,39 +1,118 @@
-    
-    
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
-    <title>Cakes site
-    </title>
+<title>Cakes site
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
     <style type="">
+    	body {
+    		margin: 0;
+    		padding: 0;
+    	}
     	.cakes{
     		font-family: Noto Sans;
     	}
-	
+    	.topnav{
+    		display:flex;
+    		flex-direction: row;
+    	}
+
+    	@media screen and (max-width: 900px) {
+		.topnav {
+		    flex-direction: column;
+			}
+		}
+		@media screen and (max-width: 900px) {
+		.hidenav {
+		   display: none !important;
+			}
+		}
+    	@media screen and (max-width: 900px) {
+        .Mostpopular{   
+		    flex-direction: column;
+		  }
+		}
+		@media screen and (max-width: 900px) {
+        .SafeEnd{   
+		   width: 100% !important;
+		   height: auto !important;
+		  }
+		}
+		
+		@media (max-width: 900px) {
+        .Fullimg{   
+		    
+		    font-size: 20px !important; 
+		    margin-left: 50px ;
+		    margin-top: 100px; 
+		   }
+		    
+		}
+		@media (max-width: 900px) {
+        .Imgadjust{   
+		    display: none !important;
+		  }
+		}
+		@media (max-width: 900px) {
+        .Fresh{   
+		    flex-direction: column;
+		  }
+		}
+		@media (max-width: 900px) {
+        .Petboarding{   
+		    flex-direction: column;
+		  }
+		}
+		@media (max-width: 900px) {
+        .Testimonial{   
+		    flex-direction: column;
+		  }
+		}
+		@media (max-width: 900px) {
+        .Images{   
+		    flex-direction: column;
+		  }
+		}
+		@media (max-width: 900px) {
+        .EndDivs{   
+		    flex-direction: column;
+		}
+		@media (max-width: 900px) {
+        .Last{   
+		    margin-top: 50px;
+		  }
+		}
+		@media (max-width: 900px) {
+        .SafeImg{   
+		    width: 50% !important;
+		    height: auto !important;
+		}
     </style>
 </head>
 <body class="cakes">
-	<div style="display:flex;">
+	
+	<div  class="topnav">
          <div style="padding: 5px;">
          	<img src="xlogo2_footer.png.pagespeed.ic.8uQZwXE10R.webp">
          </div>
-         <div style="margin:25px 35px; ">
+         <div style="margin:25px 35px; color: #5e5e5e; font-size: 16px; font-weight: 500;">
          	Home 
          </div>
-         <div style="margin:25px 35px; ">
+         <div style="margin:25px 35px; color: #5e5e5e; font-size: 16px; font-weight: 500;">
          	Product
          </div>
-        <div style="margin:25px 35px; ">
+        <div style="margin:25px 35px; color: #5e5e5e; font-size: 16px; font-weight: 500;">
          	About 
          </div>
-         <div style="margin:25px 35px; ">
+         <div style="margin:25px 35px; color: #5e5e5e; font-size: 16px; font-weight: 500;">
          	Blog
          </div>
-         <div style="margin:25px 35px; ">
+         <div style="margin:25px 35px; color: #5e5e5e; font-size: 16px; font-weight: 500;">
          	Contact
          </div>
-         <div style="display:flex; flex-direction:row-reverse; flex-grow: 6;">
+        <div class="hidenav" style="display:flex; flex-direction:row-reverse; flex-grow: 6; background-color: brown;">
          	 <div style="margin:15px 10px;">
          		<button style="color: white; background-color:#ff4513;padding: 15px 46px;border-color: #ff4513;border-radius: 30px; border: none;" >
          			Order Online
@@ -46,35 +125,43 @@
          		<img src="images-removebg-preview.png" style="width:25px; height: 25px;">
          	</div>
          	
-         </div>
+        </div>
 	</div>	
 	
-	<div style="background-image: url('xh1_hero1.png.pagespeed.ic.dCOKqiP_mm.png' ); display: inline-flex; width:100%;height: 800px; flex-direction:column; background-size: cover;">
-		<div style="  height: 300px; width: 600px; margin-top: 170px; margin-left:250px; ">
-			<div style=" font-size: 500%; font-family: Noto Sans;">
-				<b>
-					Delicious Cake <br> For Everyone
-				</b>
+	<div class="SafeEnd" style="background-image: url('xh1_hero1.png.pagespeed.ic.dCOKqiP_mm.png'); display: inline-flex; width:100%;height:900px; flex-direction:column; background-size: cover;">
+		<div class="Fullimg" style="   width: 600px;  padding-left: 200px ;  margin-top: 0px; ">
+			<div style=" font-size:75px ; font-family: Noto Sans;">
+				<p>
+					<b>
+						Delicious Cake 
+					</b>
+				</p>
+				<p>
+					<b>
+						For Everyone
+					</b>
+				</p>	
 			</div>	
-			<div style=" font-size:110%; ">
-				Land beholds it creates good saw after she 'd our set living.Signs <br>midset dominion creepeth morning 
+			<div style=" font-size:19px;">
+				Land beholds it creates good saw after she'd our set living.Signs <br>midset dominion creepeth morning 
 			</div>
 			<br>
 			<br>
 			<div>
-				<button style="color: white; background-color:#ff4513;padding: 20px 55px;border-color: #ff4513;border-radius: 30px; border: none;" >
+				<button style="color: white; background-color:#ff4513;padding: 20px 55px;border-color: #ff4513;border-radius: 30px; border: none; font-size: 18px;" >
 					 Explore Menu
 				</button>
 
 			</div>	
 			
 		</div>
-		<div style="margin-bottom: 0px;">
-			<img src="xhero-shape.png.pagespeed.ic.wTDJYE8BpN.webp" style="height: :70%;">
-		</div>	
+		<div class="Imgadjust" style="margin-top: 0px; background-color: ; display: flex;">
+			<img src="xhero-shape.png.pagespeed.ic.wTDJYE8BpN.webp" style="height:70%;">
+		</div>
+			
 	</div>
 	
-	<div style="text-align: center; margin-top:100px;">
+	<div  style="text-align: center; margin-top:100px;">
 		<div style="color: brown; font-family: Noto Sans;">
 			Most Popular
 		</div>
@@ -86,7 +173,7 @@
 		</div>
 	</div>
 
-	<div style="display: flex; justify-content: center; margin-top: 20px;">
+	<div class="Mostpopular" style="display: flex; justify-content: center; margin-top: 20px;">
 		<div style="text-align: center; background-color:#ffebeb; border-radius: 0px 0px 40px 0px; margin: 20px;">
 			<div style=" margin: 15px;padding: 5px; ">
 				<img src="xitems2.png.pagespeed.ic.46TV58JPRv.webp" style="border-radius: 0px 0px 40px 0px;">
@@ -103,7 +190,9 @@
 			</div>
 			<br>
 			<div>
-				<button style="color: white; background-color:#ff4513;padding: 15px 50px;border-color: #ff4513;border-radius: 30px;" > $20 I Order now
+				<button style="color: white; background-color:#ff4513;padding: 15px 50px;border-color: #ff4513;border-radius: 30px;
+				border: none;" >
+					 $20 I Order now
 				</button>
 			</div>	
 			<br>
@@ -156,7 +245,7 @@
 		</div>
 	</div>
 
-	<div style="display: flex;  margin-top:50px; justify-content: center; align-items: center; ">
+	<div class="Fresh" style="display: flex;  margin-top:50px; justify-content: center; align-items: center; ">
 		<div style="margin-top: 100px;margin-right: 50px; ">
 			<div>
 				<img src="xabout.png.pagespeed.ic.DgJwPZuEfg.webp">
@@ -212,7 +301,7 @@
 			</b>	
 		</div>
 	</div>
-	<div style="background-color: #ffebeb ; display: flex; justify-content:center;padding-top: 80px;">
+	<div class="Petboarding" style="background-color: #ffebeb ; display: flex; justify-content:center;padding-top: 80px;">
 		<div style="text-align:center; margin: 50px;">
 			<div style="">
 				<img src="svgexport-1 (5).svg">
@@ -278,10 +367,8 @@
 	<div style="width:100%; height: 200px; background-color:  #ffebeb;">
 	</div>
 
-	<div >
-		<iframe width="100%;" height="600px;"
-		src="https://www.youtube.com/embed/tgbNymZ7vqY">
-		</iframe>
+	<div>
+		<iframe width="100%;" height="600px;" style="border: none;" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
 	</div>
 	
 	<div style="margin-top:80px; text-align: center;">
@@ -296,7 +383,7 @@
 		</div>
 	</div>
 		
-	<div style="display: flex; flex-direction:row; justify-content: center; margin-top:80px;">
+	<div class="Testimonial" style="display: flex;  justify-content: center; margin-top:80px;">
 		<div style="display:flex; flex-direction: column; margin: 60px;">
 			<div style="font-size:120%; ">
 				<div>
@@ -363,30 +450,29 @@
 		</div>
 	</div>
 
-	<div style="margin-top:50px; display: flex; width:100%; overflow: hidden;object-fit: cover ; ">
-		<div style="width:25%; object-fit: cover ;">
-			<img src="xinstra4.png.pagespeed.ic.BKJb5QqvVf.webp" style="height:400px; object-fit: cover ; "   >
+	<div class="Images" style="margin-top:50px; display: flex; width:100%; overflow: hidden; height:400px;">
+		<div class="SafeImg" style="width:25%;  ">
+			<img src="xinstra4.png.pagespeed.ic.BKJb5QqvVf.webp" >
 		</div>
-		<div style="width :25%; object-fit: cover ;">
-			<img src="xinstra1.png.pagespeed.ic._jZKzjF_M8 (1).webp" style="height:400px;" >
+		<div class="SafeImg" style="width :25%;  ">
+			<img src="xinstra1.png.pagespeed.ic._jZKzjF_M8 (1).webp">
 		</div>
-		<div style="width: 25%; object-fit: cover ;">
-			<img src="xinstra4.png.pagespeed.ic.BKJb5QqvVf.webp" style="height:400px;"  >
+		<div class="Imgadjust" style="width: 25%;  ">
+			<img src="xinstra4.png.pagespeed.ic.BKJb5QqvVf.webp">
 		</div>
-		<div style="width:25%; object-fit: cover ;">
-			<img src="xinstra1.png.pagespeed.ic._jZKzjF_M8 (1).webp" style="height:400px;"  >
+		<div class="Imgadjust" style="width:25%;  ">
+			<img src="xinstra1.png.pagespeed.ic._jZKzjF_M8 (1).webp">
 		</div>
 	</div>
 	
-	<div style="background-color:#ffebeb; height:100px;">
-		
-	</div>
-	<div style="display:flex;  justify-content: space-evenly; background-color: #ffebeb; ">
-		<div style="display:flex; flex-direction:column;">
+	
+	
+	<div class="EndDivs" style="display:flex; padding-top: 100px;  justify-content: space-evenly; background-color: #ffebeb; ">
+		<div class="Last" style="display:flex; flex-direction:column;">
 			<div>
 				<img src="xlogo2_footer.png.pagespeed.ic.8uQZwXE10R.webp">
 			</div>
-			<div>
+			<div >
 				<p>
 					Land beholds it creates good saw after she 'd our 
 				</p>
@@ -402,7 +488,7 @@
 				<img src="download-removebg-preview.png" style="width:126px;">
 			</div>
 		</div>
-		<div>
+		<div class="Last">
 			<div style="font-size:130%;">
 				Quick Links
 			</div>
@@ -427,7 +513,7 @@
 				Contact
 			</div>
 		</div>	
-		<div >
+		<div class="Last">
 			<div style="font-size:130%;">
 				Cakes
 			</div>
@@ -448,7 +534,7 @@
 				Meghrong
 			</div>
 		</div>
-		<div>
+		<div class="Last">
 			<div style="font-size:130%;">
 				Contact Us
 			</div>
